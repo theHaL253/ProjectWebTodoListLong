@@ -1,0 +1,132 @@
+/* style.css */
+body {
+    background-color: #006747; /* green color */
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .todo,
+  .contact {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo h2,
+  .contact h2 {
+    margin-bottom: 10px;
+  }
+  
+  .add-task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .add-task input[type='text'] {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .add-task button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .add-task button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo li {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: gold; /* gold color */
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-text {
+    flex: 1;
+  }
+  
+  .actions {
+    margin-left: 10px;
+  }
+  
+  .actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+  
+  .actions button:hover {
+    color: red;
+  }
+  
+  .completed .task-text {
+    text-decoration: line-through;
+  }
+  
+  .contact .card {
+    background-color: gold; /* gold color */
+    padding: 20px;
+  }
+  
+  .contact img {
+    width: 150px; /* bigger picture */
+    height: 150px; /* bigger picture */
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+  }
+  
+  .contact-info > div {
+    flex: 1;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .todo,
+    .contact {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .todo li {
+      font-size: 0.9rem;
+    }
+  }
