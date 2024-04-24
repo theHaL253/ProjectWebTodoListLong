@@ -24,5 +24,6 @@ This website consists of two main functionalities:
 - 2 most important files are App.js and style.css. Those other files are only for rendering purpose
 
 ## 4, Demo Image of the project
-![raw](https://drive.google.com/file/d/1IxNW7bKLsqkKV8ebKFVHTa7iSMc9cTXg/view?usp=sharing)
-![raw](https://drive.google.com/file/d/19JCG8WUXSyCRQLTGIBC2Z1OVcv3vquzo/view?usp=sharing)
+![honorimage](https://github.com/theHaL253/ProjectWebTodoListLong/assets/52199622/3c48888b-7562-47a4-901d-c8ece226dcb3)
+
+![honorrespon](https://github.com/theHaL253/ProjectWebTodoListLong/assets/52199622/845b4eca-6c65-437f-8073-735a87a0bae5)
